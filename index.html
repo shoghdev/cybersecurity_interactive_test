@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="hy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Կիբեռանվտանգություն․ ինտերակտիվ ուսումնական սահիկաշար</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">CYBER<span>SAFE</span></div>
+      <div class="brand">
+        <span>«Մխիթար Սեբաստացի» կրթահամալիր | ՏՏ լաբորատորիա</span>
+      </div>
+      <div class="tools">
+        <button
+          class="small"
+          id="soundBtn"
+          aria-label="Ձայնը միացնել կամ անջատել"
+        >
+          🔊 Ձայն՝ միացված</button
+        ><button class="small" onclick="showHome()">⌂ Գլխավոր</button>
+      </div>
+    </header>
+    <main>
+      <section id="home">
+        <div class="hero">
+          <div class="eyebrow">Ինտերակտիվ ուսումնական խաղեր</div>
+          <h1>
+            Անձնական տվյալների<br /><span style="color: var(--cyan)"
+              >պաշտպանություն</span
+            >
+          </h1>
+          <p class="lead">
+            Կիբեռանվտանգությունը սկսվում է փոքր, բայց կարևոր սովորություններից։
+            Ընտրի՛ր հարցի համարը, պատասխանի՛ր և ստուգի՛ր գիտելիքներդ։
+          </p>
+        </div>
+        <h2>Ընտրի՛ր բաժինը</h2>
+        <div class="grid" id="menu"></div>
+        <div class="tip">
+          💡 <b>Խաղի կանոն.</b> Յուրաքանչյուր հարցի համար ընտրի՛ր պատասխանը,
+          սեղմի՛ր «Ստուգել» և կարդա՛ բացատրությունը։ Կարող ես ցանկացած պահի
+          վերադառնալ հարցերի ցանկին։
+        </div>
+      </section>
+      <section id="stage" class="hidden"></section>
+    </main>
+    <footer>Կիբեռանվտանգություն · Ուսումնական նյութ</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
